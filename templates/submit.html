@@ -6,5 +6,11 @@
   <body>
     <h1>Submission Successful</h1>
     <p>Your file {{ filename }} has been uploaded successfully.</p>
+
+    <h2>Submit Answer Key</h2>
+    <form action="/submit_key" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" accept=".pdf" />
+      <input type="submit" value="Upload" />
+    </form>
   </body>
 </html>
