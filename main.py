@@ -36,7 +36,7 @@ def submit():
         pdf_tables = pdf.extract_tables(ocr=ocr)
 
         # We can also create an excel file with the tables
-        pdf.to_xlsx('tables.xlsx', ocr=ocr, dest="./uploads/")
+        pdf.to_xlsx('questions.xlsx', ocr=ocr)
 
         return render_template('submit.html', filename=filename)
     else:
