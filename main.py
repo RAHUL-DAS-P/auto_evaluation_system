@@ -43,5 +43,29 @@ def submit():
         return 'Invalid file', 400
 
 
+@app.route('/submit_key', methods=['POST'])
+def submit_key():
+    file = request.files['file']
+    if file and file.filename.endswith('.pdf'):
+        filename = secure_filename(file.filename)
+        file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+
+        # Instantiation of the pdf
+        pdf = PDF(src="./uploads/" + filename)
+
+        # Instantiation of the OCR, Tesseract, which requires prior installation
+        ocr = TesseractOCR(lang="eng")
+
+        # Table identification and extraction
+        pdf_tables = pdf.extract_tables(ocr=ocr)
+
+        # We can also create an excel file with the tables
+        pdf.to_xlsx('answer_key.xlsx', ocr=ocr)
+
+        return render_template('submit_key.html', filename=filename)
+    else:
+        return 'Invalid file', 400
+
+
 if __name__ == '__main__':
     app.run(debug=True)
