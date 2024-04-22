@@ -7,6 +7,12 @@ from openai import OpenAI
 import os
 import PyPDF2
 from dotenv import load_dotenv
+from transformers import AutoTokenizer, AutoModel
+import torch
+import torch.nn.functional as F
+import json
+
+
 load_dotenv()
 
 app = Flask(__name__)
@@ -119,8 +125,12 @@ def upload_answer_sheet():
         question_answers = extract_question_answers("uploads/" + filename)
         print(question_answers)
         text = output(question_answers)
-
+        text = json.loads(text)
+        print(type(text))
         print(text)
+
+        for key, value in text.items():
+            print(f"Question: {key}, Answer: {value}")
         return render_template('upload_success.html', filename=filename, text=text)
     else:
         return 'Invalid file', 400
