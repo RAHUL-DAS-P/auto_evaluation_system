@@ -204,7 +204,7 @@ def upload_answer_sheet():
                 else:
                     pass
 
-        return render_template('upload_success.html', filename=filename, text=text, total=total, score=score)
+        return render_template('upload_success.html', filename=filename, total=total, score=score)
     else:
         return 'Invalid file', 400
 
