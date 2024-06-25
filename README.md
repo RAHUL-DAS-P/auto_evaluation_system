@@ -14,6 +14,14 @@ The Auto Grading System is designed to streamline the educational assessment pro
 - **Tesseract OCR:** Integrates Optical Character Recognition for analyzing scanned answer sheets.
 - **AllMiniLLM:** Utilizes advanced NLP models for semantic analysis and grading accuracy.
 
+### Architecture 
+![alt text](https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Architecture%20Project.png)
+
+### Usage Image
+![alt text](https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%201.png)
+![alt text](https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%202.png)
+![alt text](https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%203.png)
+![alt text](https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%204.png)
 ### Installation
 
 1. Clone the repository:
