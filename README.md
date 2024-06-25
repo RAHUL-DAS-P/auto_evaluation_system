@@ -17,7 +17,7 @@ The Auto Grading System is designed to streamline the educational assessment pro
 ### Installation
 
 1. Clone the repository:
-  ```git clone https://github.com/yourgithubusername/auto-grading-system.git```
+  ```git clone https://github.com/RAHUL-DAS-P/auto_evaluation_system.git```
 2. Install dependencies:
   ```
   cd auto-grading-system
