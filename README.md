@@ -15,18 +15,18 @@ The Auto Grading System is designed to streamline the educational assessment pro
 - **AllMiniLLM:** Utilizes advanced NLP models for semantic analysis and grading accuracy.
 
 ### Architecture 
-![alt text](https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Architecture%20Project.png)
-<img src="https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Architecture%20Project.png" width="128"/>
+
+<img src="https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Architecture%20Project.png" width="400"/>
 
 ### Usage Image
-![alt text](https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%201.png)
-<img src="https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%201.png" width="128"/>
 
-<img src="https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%202.png" width="128"/>
+<img src="https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%201.png" width="400"/>
 
-<img src="https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%203.png" width="128"/>
+<img src="https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%202.png" width="400"/>
 
-<img src="https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%204.png" width="128"/>
+<img src="https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%203.png" width="400"/>
+
+<img src="https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%204.png" width="400"/>
 ### Installation
 
 1. Clone the repository:
