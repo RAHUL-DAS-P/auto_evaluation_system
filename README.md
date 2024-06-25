@@ -27,6 +27,7 @@ The Auto Grading System is designed to streamline the educational assessment pro
 <img src="https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%203.png" width="400"/>
 
 <img src="https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%204.png" width="400"/>
+
 ### Installation
 
 1. Clone the repository:
