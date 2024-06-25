@@ -17,21 +17,24 @@ The Auto Grading System is designed to streamline the educational assessment pro
 ### Installation
 
 1. Clone the repository:
-  git clone https://github.com/yourgithubusername/auto-grading-system.git
+  ```git clone https://github.com/yourgithubusername/auto-grading-system.git```
 2. Install dependencies:
+  ```
   cd auto-grading-system
   pip install -r requirements.txt
+```
 
 ### Usage
 
 To start the application:
+```
   python app.py
-
+```
   Navigate to `http://localhost:5000` in your web browser to access the grading interface.
 
 ### Documentation
 
-- [Project Report]()
+- [Project Report](https://github.com/RAHUL-DAS-P/auto_evaluation_system/blob/main/Project%20Report.pdf)
 
 ### Contributors
 - Adith Ramdas
